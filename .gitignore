@@ -1,0 +1,13 @@
+# 排除图片和二进制大文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.psd
+*.ai
+*.pptx
+*.ppt
+
+# 保留 git 跟踪
+!.gitignore
