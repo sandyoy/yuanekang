@@ -1,4 +1,4 @@
-# 排除图片和二进制大文件
+# 排除超大二进制文件（可通过其他方式共享）
 *.jpg
 *.jpeg
 *.png
@@ -6,8 +6,18 @@
 *.bmp
 *.psd
 *.ai
-*.pptx
-*.ppt
+*.zip
 
-# 保留 git 跟踪
-!.gitignore
+# 保留以下文档格式
+!.docx
+!.doc
+!.xlsx
+!.xls
+!.pdf
+!.md
+!.txt
+!.pptx
+!.ppt
+
+# 但 inbox/ 下的所有文件都要跟踪（包括图片），供知识库使用
+!inbox/**
